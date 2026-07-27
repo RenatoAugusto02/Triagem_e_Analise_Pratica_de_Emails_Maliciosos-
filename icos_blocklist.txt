@@ -1,0 +1,17 @@
+# =========================================================
+# INDICADORES DE COMPROMETIMENTO (IOCs) - CAMPANHA PHISHING
+# Analista Responsável: Renato Augusto (SOC N1)
+# Data da Análise: 2026-07-26
+# =========================================================
+
+# --- IP Malicioso (IPv4) ---
+198.51.100.42
+
+# --- Domínio Malicioso ---
+atualizacao-conta-segura[.]com
+
+# --- URL de Destino (Credential Harvesting) ---
+http://atualizacao-conta-segura[.]com/login/auth.php
+
+# --- Hash Malicioso do Anexo (SHA-256) ---
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
