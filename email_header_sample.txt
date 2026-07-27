@@ -1,0 +1,17 @@
+Received: from mail.servidor-suspeito-fake.com (198.51.100.42)
+    by mx.empresa.com.br with ESMTP id a1b2c3d4e5
+    for <renato@empresa.com.br>; Sun, 26 Jul 2026 14:22:00 -0300
+ARC-Authentication-Results: i=1; mx.google.com;
+       spf=fail (google.com: domain of suporte@bancoseguro.com.br does not designate 198.51.100.42 as permitted sender) smtp.mailfrom=suporte@bancoseguro.com.br;
+       dkim=fail header.i=@bancoseguro.com.br header.s=s1 header.b=X9zA;
+       dmarc=fail (p=REJECT sp=REJECT dis=NONE) header.from=bancoseguro.com.br
+Return-Path: <bounce-malicioso@servidor-suspeito-fake.com>
+Received-SPF: fail (mx.empresa.com.br: domain of suporte@bancoseguro.com.br does not designate 198.51.100.42 as permitted sender)
+From: "Suporte Banco Seguro" <suporte@bancoseguro.com.br>
+To: renato@empresa.com.br
+Subject: URGENTE: Recadastramento de Segurança Obrigatório
+Date: Sun, 26 Jul 2026 14:21:55 -0300
+Content-Type: text/html; charset="UTF-8"
+
+Prezado cliente, identifiquei uma tentativa de acesso suspeita. 
+Atualize seus dados imediatamente acessando: http://atualizacao-conta-segura.com/login/auth.php
